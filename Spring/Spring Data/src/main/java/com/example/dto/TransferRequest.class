@@ -1,0 +1,44 @@
+package com.example.dto;
+
+import java.math.BigDecimal;
+
+public class TransferRequest {
+
+  private long senderAccountId;
+
+  public String getName_of_book() {
+    return name_of_book;
+  }
+
+  public void setName_of_book(String name_of_book) {
+    this.name_of_book = name_of_book;
+  }
+
+  private long receiverAccountId;
+  private String name_of_book;
+  private BigDecimal amount;
+
+  public long getSenderAccountId() {
+    return senderAccountId;
+  }
+
+  public void setSenderAccountId(long senderAccountId) {
+    this.senderAccountId = senderAccountId;
+  }
+
+  public long getReceiverAccountId() {
+    return receiverAccountId;
+  }
+
+  public void setReceiverAccountId(long receiverAccountId) {
+    this.receiverAccountId = receiverAccountId;
+  }
+
+  public BigDecimal getAmount() {
+    return amount;
+  }
+
+  public void setAmount(BigDecimal amount) {
+    this.amount = amount;
+  }
+}
