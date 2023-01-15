@@ -1,0 +1,3 @@
+/home/yegor/programmig/Patterns/Abstract_factory/cmake-build-debug/CMakeFiles/Abstract_factory.dir
+/home/yegor/programmig/Patterns/Abstract_factory/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/yegor/programmig/Patterns/Abstract_factory/cmake-build-debug/CMakeFiles/rebuild_cache.dir
